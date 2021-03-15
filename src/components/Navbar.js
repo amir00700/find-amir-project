@@ -1,6 +1,6 @@
 import React from "react";
 //react fontawesome imports
-import  {FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import  { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 
