@@ -4,10 +4,11 @@
   --primary-white: #fff;
   --primary-crimson:#DC143C;
   --primary-dark:rgba(255,255,255, 0);
+  --primary-black:#000000;
   --primary-red:#006400;
 }
 body{
-  font-family: "Roboto Condesed" sans-serif;
+  font-family: "Roboto Condesed" sans-serif i !important;
 }
 /* navbar */
 nav{
@@ -131,4 +132,48 @@ font-family: "Roboto Condesed",sans-serif;
 
 }
 
+/* about me */
+
+.photo-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.profile-img{
+  width: 16rem;
+  border-radius: 50%;
+  padding:  .3rem;
+  border:  2px solid var(--primary-crimson);
+
+}
+.about-heading{
+  color: var(--primary-crimson);
+  text-transform: uppercase;
+}
+@media(max-width: 468px){
+  .profile-img{
+    width: 10rem;
+  }
+}
+.btn-resume{
+  border: 1px solid var(--primary-crimson);
+text-transform: uppercase;
+border-radius: 0;
+padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+color: var(--primary-black);
+margin-top: 2rem;
+font-family: "Roboto Condesed",sans-serif;
+
+}
+
+.btn-resume:hover{
+  text-decoration: none;
+  background-color:var(--primary-crimson);
+  color: var(--primary-white);
+  transition:  .2s ease-in-out;
+
+}
 
