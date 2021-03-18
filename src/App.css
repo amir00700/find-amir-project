@@ -194,5 +194,52 @@ font-family: "Roboto Condesed",sans-serif;
   text-transform: uppercase;
 }
 
+.services .circle{
+  position: relative;
+  margin: 0.375rem auto;
+  
+  background: var(--primary-crimson);
+  border-radius: 50%;
+  width: 3.125rem;
+  height: 3.125rem;
 
 
+}
+.services .icon{
+  font-size: 1.4rem;
+  color: var(--primary-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.services .box{
+  height: 16rem;
+  border-bottom: 0.3125rem solid var(--primary-crimson);
+  padding: 0.625rem;
+  margin-bottom: 1.875rem;
+  background: var(--primary-white);
+
+}
+.services .box:hover{
+  background: var(--primary-crimson) ;
+  border-bottom: 0.3125rem solid var(--primary-black);
+}
+
+.services .box:hover .icon{
+  color: var(--primary-black);
+
+}
+.services .box:hover .icon{
+  color: var(--primary-black);
+  
+}
+.services .box:hover .circle{
+ background: var(--primary-white);
+  
+}
+
+.services .box:hover p{
+  color: var(--primary-white);  
+ }
