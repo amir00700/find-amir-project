@@ -16,6 +16,11 @@ body{
 nav{
   z-index: 2;
 }
+/* Modify the backgorund color */ 
+.navbar-custom { 
+	background-color: var(--primary-crimson); 
+} 
+
 
 
 /* menu link */
@@ -50,10 +55,10 @@ nav ul li{
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
-  border-top: 0.1875rem solid var(--primary-crimson);
+  border-top: 0.1875rem solid var(--primary-black);
 }
 .navbar-nav > li > a:hover{
-  border-top: 0.1875rem solid var(--primary-crimson);
+  border-top: 0.1875rem solid var(--primary-black);
 }
 .header-wraper{
   position: relative;
@@ -220,6 +225,7 @@ font-family: "Roboto Condesed",sans-serif;
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: var(--primary-white);
+  transition: 0.3s ease-in-out;
 
 }
 .services .box:hover{
@@ -243,3 +249,103 @@ font-family: "Roboto Condesed",sans-serif;
 .services .box:hover p{
   color: var(--primary-white);  
  }
+
+
+ /***Projects******/
+ .project-wrapper{
+   background:var(--primary-grey);
+   padding: 2rem 0;
+
+ }
+ .project-wrapper h1{
+   color: var(--primary-crimson);
+
+ }
+ .project-image{
+   width: 15rem;
+   border: 1px solid var(--primary-crimson);
+   padding: 0;
+ }
+
+
+.project-image-box{
+  position: relative;
+  margin: 1rem;
+  
+
+}
+
+/*****overflow-box---***/
+.overflow{
+  position: absolute;
+  opacity:0;
+  background: var(--primary-black);
+  width: 15rem;
+  height: 10rem;
+  top: 0;
+  border:  1px solid var(--primary-red);
+  cursor: pointer;
+}
+.project-image-box:hover .overflow{
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.project-icon{
+  position:absolute ;
+  opacity: 1;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color: var(--primary-crimson);
+  font-size: 1.5rem;
+
+}
+.project-image-box:hover .project-icon{
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+
+}
+/*---overflow box---*/
+.project-image-popupbox{
+  width: 45rem;
+  padding: 0 0.5rem;
+   
+}
+.hyper-link{
+  cursor: pointer;
+  color: var(--primary-crimson);
+}
+.hyper-link:hover {
+ 
+  color:var(--primary-red);
+}
+
+/*media popupbox style*/
+
+@media(max-width: 768px) {
+  .project-image-popupbox{
+    width: 100%;
+  }
+}
+@media (max-height: 570px){
+  .popupbox-wrapper {
+    height: 100% ;
+
+  }
+
+  .project-image-popupbox{
+    width: 50%;
+  }
+}
+
+@media(max-height: 280px) {
+  .popupbox-wrapper{
+    height: 90% ;
+  }
+
+  .project-image-popupbox{
+    width: 30%;
+  }
+
+}
