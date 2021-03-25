@@ -13,7 +13,6 @@
   --primary-green:green;
   --primary-green2:#e3fcea;
   
-  
 }
 body{
   font-family: "Roboto Condensed" sans-serif  !important;
@@ -61,7 +60,7 @@ nav ul li{
   }
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
   border-top: 0.1875rem solid var(--primary-black);
 }
 .navbar-nav > li > a:hover{
@@ -72,7 +71,7 @@ nav ul li{
   background: url(App.jpeg) no-repeat; 
   background-size: cover;
   background-position: center;
-  height: 95vh;
+  height: 100vh;
 
 }
 

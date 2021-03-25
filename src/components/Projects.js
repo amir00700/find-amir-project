@@ -138,7 +138,7 @@ fadeInSpeed: 500
 
 
     return (
-        <div className="project-wrapper">
+        <div id="project" className="project-wrapper">
             <div className="container">
                 <h1 className="text-uppercase text-center py-5">Projects</h1>
                 <div className="image-box-wrapper row justify-content-center">
