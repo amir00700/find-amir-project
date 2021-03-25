@@ -11,6 +11,8 @@
   --primary-light-grey:#d3d3d3;
   --primary-grey:#808080;
   --primary-green:green;
+  --primary-green2:#e3fcea;
+  
   
 }
 body{
@@ -450,13 +452,53 @@ font-family: "Roboto Condesed",sans-serif;
  }
 
  .error-message{
-   color: var(--primary-alicewhite);
-   background: none;
+   color: var(--primary-green2);
+   background: none ;
  }
  .success-message{
    font-weight: 500;
    color: var(--primary-green) ;
  }
+
+ /*--------Footer Component--------*/
+ .footer{
+   background: var(--primary-black);
+   color: var(--primary-grey);
+   padding: 3rem;
+ }
+ .footer a{
+   text-decoration: none;
+   color: var(--primary-grey);
+ }
+ .footer a:hover{
+   text-decoration: none;
+   color: var(--primary-crimson);
+   cursor: pointer;
+ }
+ .footer p{
+   margin-bottom: 0;
+ }
+ a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+a.linkedin{
+  color:#2867B2;
+}
+a.git{
+  color: #4078c0;
+}
+a.Reddit {
+  color:#FF4500 ;
+}
 
  /*--------Media--------*/
 
