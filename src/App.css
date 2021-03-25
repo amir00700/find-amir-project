@@ -58,6 +58,7 @@ nav ul li{
   .navbar-brand {
     width: 7rem;
   }
+
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus{
