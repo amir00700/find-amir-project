@@ -266,6 +266,20 @@ font-family: "Roboto Condesed",sans-serif;
   color: var(--primary-white);  
  }
 
+ /***Media***/
+ @media(max-width: 850px){
+  .services h3{
+    font-size: large;
+
+  }
+  .services p{
+    font-size: small;
+  }
+  
+    
+  
+  }
+
 
  /***Projects******/
  .project-wrapper{
@@ -341,23 +355,26 @@ font-family: "Roboto Condesed",sans-serif;
 
 @media(max-width: 768px) {
   .project-image-popupbox{
-    width: 100%;
+    width: 80%;
   }
+  
+
 }
 @media (max-height: 570px){
-  .popupbox-wrapper {
-    height: 100% ;
+  .popupbox-wrapper{
+    height:82%;
 
   }
 
   .project-image-popupbox{
-    width: 50%;
+    width: 40%;
   }
 }
 
+
 @media(max-height: 280px) {
   .popupbox-wrapper{
-    height: 90% ;
+    height: 80% ;
   }
 
   .project-image-popupbox{

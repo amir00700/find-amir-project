@@ -20,7 +20,7 @@ const Projects = () => {
             const content = (
         <>
         <img  className="project-image-popupbox"src={Project1} alt=" project 1 "/>
-        <p>Hellow! I am Amir. I'm Full-Stack Web Developer. Technologies I uses is Mern.MongoDB, Express, ReactJS and NodeJS.</p>
+        <p>Hellow! I am Amir. I'm Full-Stack Web Developer.</p>
         <b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/amir00700/Comp2068-LAB1-")}>
         https://github.com/amir00700/Comp2068-LAB1-
         </a>
