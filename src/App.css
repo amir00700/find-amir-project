@@ -69,7 +69,7 @@ nav ul li{
 }
 .header-wraper{
   position: relative;
-  background: url(App.jpeg) no-repeat; 
+  background: url(./images/home.jpg) no-repeat; 
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -115,9 +115,11 @@ nav ul li{
  }
  /* header github button */
 .btn-github{
-border: 1px solid var(--primary-crimson);
+ border: 2px var(--primary-crimson); 
+border-radius: 12px;
+background: #084a54;
 text-transform: uppercase;
-border-radius: 0;
+
 padding: 0.625rem 0.75rem 0.75rem 0.75rem;
 color: var(--primary-white);
 margin-top: 2rem;
@@ -175,7 +177,7 @@ font-family: "Roboto Condesed",sans-serif;
 .btn-resume{
   border: 1px solid var(--primary-crimson);
 text-transform: uppercase;
-border-radius: 0;
+border-radius: 12px;
 padding: 0.625rem 0.75rem 0.75rem 0.75rem;
 color: var(--primary-black);
 margin-top: 2rem;
@@ -418,7 +420,7 @@ font-family: "Roboto Condesed",sans-serif;
    color: var(--primary-white);
    border: 1px solid var(--primary-crimson);
    text-transform: uppercase;
-   border-radius: 0;
+   border-radius: 12px;
    
    
    margin-top: 2rem;
