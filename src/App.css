@@ -76,7 +76,7 @@ nav ul li{
 }
 .header-wraper{
   position: relative;
-  background: url(./images/home.jpg) no-repeat; 
+  background: url(./images/home2.jpg) no-repeat; 
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -118,7 +118,7 @@ nav ul li{
  /* typed text */
  .typed-text{
    font-size: 2rem;
-   color: #012426;
+   color:var(--primary-white);
  }
  /* header github button */
 .btn-github{
