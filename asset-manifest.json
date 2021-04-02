@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/find-amir-project/static/css/main.fcddc3cc.chunk.css",
-    "main.js": "/find-amir-project/static/js/main.7fa9fef9.chunk.js",
-    "main.js.map": "/find-amir-project/static/js/main.7fa9fef9.chunk.js.map",
+    "main.css": "/find-amir-project/static/css/main.be905573.chunk.css",
+    "main.js": "/find-amir-project/static/js/main.db3e451f.chunk.js",
+    "main.js.map": "/find-amir-project/static/js/main.db3e451f.chunk.js.map",
     "runtime-main.js": "/find-amir-project/static/js/runtime-main.0e4b3998.js",
     "runtime-main.js.map": "/find-amir-project/static/js/runtime-main.0e4b3998.js.map",
     "static/css/2.301e199a.chunk.css": "/find-amir-project/static/css/2.301e199a.chunk.css",
@@ -12,11 +12,11 @@
     "static/js/3.a7cbd20a.chunk.js.map": "/find-amir-project/static/js/3.a7cbd20a.chunk.js.map",
     "index.html": "/find-amir-project/index.html",
     "static/css/2.301e199a.chunk.css.map": "/find-amir-project/static/css/2.301e199a.chunk.css.map",
-    "static/css/main.fcddc3cc.chunk.css.map": "/find-amir-project/static/css/main.fcddc3cc.chunk.css.map",
+    "static/css/main.be905573.chunk.css.map": "/find-amir-project/static/css/main.be905573.chunk.css.map",
     "static/js/2.756d0e50.chunk.js.LICENSE.txt": "/find-amir-project/static/js/2.756d0e50.chunk.js.LICENSE.txt",
+    "static/media/React-Task-Tracker-app.869090ee.jpg": "/find-amir-project/static/media/React-Task-Tracker-app.869090ee.jpg",
     "static/media/aboutme.3a95fa78.jpg": "/find-amir-project/static/media/aboutme.3a95fa78.jpg",
     "static/media/App.css": "/find-amir-project/static/media/home2.70882ad4.jpg",
-    "static/media/ipad.458c8f38.jpg": "/find-amir-project/static/media/ipad.458c8f38.jpg",
     "static/media/iphone12.49aa193d.jpg": "/find-amir-project/static/media/iphone12.49aa193d.jpg",
     "static/media/iphone5.61465f54.jpg": "/find-amir-project/static/media/iphone5.61465f54.jpg",
     "static/media/macbook.22f7950a.jpg": "/find-amir-project/static/media/macbook.22f7950a.jpg",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.0e4b3998.js",
     "static/css/2.301e199a.chunk.css",
     "static/js/2.756d0e50.chunk.js",
-    "static/css/main.fcddc3cc.chunk.css",
-    "static/js/main.7fa9fef9.chunk.js"
+    "static/css/main.be905573.chunk.css",
+    "static/js/main.db3e451f.chunk.js"
   ]
 }
