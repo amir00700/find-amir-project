@@ -1,5 +1,5 @@
 import React from "react";
-import Project1 from "../images/ipad.jpg";
+import Project1 from "../images/Task-tracker.jpg";
 import Project2 from "../images/iphone5.jpg";
 import Project3 from "../images/iphone12.jpg";
 import Project4 from "../images/macbook.jpg";
@@ -14,133 +14,120 @@ import "react-popupbox/dist/react-popupbox.css";
 
 const Projects = () => {
     
-        //project1
-    const openPopupboxProject1 = () => {
-    
+                    //project1
+                const openPopupboxProject1 = () => {
+                
+                        const content = (
+                    <>
+                    <img  className="project-image-popupbox"src={Project1} alt=" project 1 "/>
+                    <p>Technology used: React.js</p>
+                    <b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/amir00700/React-Task-Tracker-App")}>
+                    https://github.com/amir00700/React-Task-Tracker-App
+                    </a>
+
+                    </>
+
+                    )
+                    PopupboxManager.open({ content })
+
+                }
+
+                const popupboxConfigProject1 = {
+                    titleBar: {
+                        enable: true,
+                        text: "React Task Tracker App"
+
+                    },
+
+                    fadeIn: true,
+                    fadeInSpeed: 500 
+
+                }
+
+                //projec2
+                const openPopupboxProject2 = () => {
+                 const content = (
+                <>
+                <img  className="project-image-popupbox"src={Project2} alt=" project 2 "/>
+                <p></p>
+                <b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/amir00700/Comp2068-LAB1-")}>
+                https://github.com/amir00700/Comp2068-LAB1-
+                </a> </>
+
+                )
+                PopupboxManager.open({ content })
+
+            }
+
+            const popupboxConfigProject2 = {
+                titleBar: {
+                    enable: true,
+                    text: "Project2"
+
+                },
+
+                fadeIn: true,
+                fadeInSpeed: 500 
+
+            }
+
+            //project3
+            const openPopupboxProject3 = () => {
             const content = (
-        <>
-        <img  className="project-image-popupbox"src={Project1} alt=" project 1 "/>
-        <p>Hellow! I am Amir. I'm Full-Stack Web Developer.</p>
-        <b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/amir00700/Comp2068-LAB1-")}>
-        https://github.com/amir00700/Comp2068-LAB1-
-        </a>
+            <>
+            <img  className="project-image-popupbox"src={Project3} alt=" Project3"/>
+            <p>ggg</p>
+            <b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/amir00700/Comp2068-LAB1-")}>
+            https://github.com/amir00700/Comp2068-LAB1-
+            </a>
+            </>
+            )
+            PopupboxManager.open({ content })
+            }
+            const popupboxConfigProject3= {
+            titleBar: {
+                enable: true,
+                text: "Project3"
 
-        </>
+            },
 
-        )
-        PopupboxManager.open({ content })
+            fadeIn: true,
+            fadeInSpeed: 500 
 
-    }
+            }
 
-    const popupboxConfigProject1 = {
-        titleBar: {
-            enable: true,
-            text: "project1"
+            //project4
 
-        },
+            const openPopupboxProject4 = () => {
+                
+                const content = (
+            <>
+                < img className="project-image-popupbox"src={Project4} alt=" projec4"/>
+            <p>lorem200</p>
+            <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/amir00700/Comp2068-LAB1-")}>
+            https://github.com/amir00700/Comp2068-LAB1</a>
 
-        fadeIn: true,
-        fadeInSpeed: 500 
+            </>
 
-    }
+            )
+            PopupboxManager.open({ content })
+            }
+            const popupboxConfigProject4= {
+            titleBar: {
+                enable: true,
+                text: "Project4"
 
-    //projec2
-    const openPopupboxProject2 = () => {
-    
-        const content = (
-    <>
-    <img  className="project-image-popupbox"src={Project2} alt=" project 1 "/>
-    <p>ggg</p>
-    <b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/amir00700/Comp2068-LAB1-")}>
-    https://github.com/amir00700/Comp2068-LAB1-
-    </a>
+            },
+            fadeIn: true,
+            fadeInSpeed: 500 
 
-    </>
-
-    )
-    PopupboxManager.open({ content })
-
-}
-
-const popupboxConfigProject2 = {
-    titleBar: {
-        enable: true,
-        text: "Project2"
-
-    },
-
-    fadeIn: true,
-    fadeInSpeed: 500 
-
-}
-
- //project3
-
-  const openPopupboxProject3 = () => {
-    
-    const content = (
-<>
-<img  className="project-image-popupbox"src={Project3} alt=" Project3"/>
-<p>ggg</p>
-<b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/amir00700/Comp2068-LAB1-")}>
-https://github.com/amir00700/Comp2068-LAB1-
-</a>
-
-</>
-
-)
-PopupboxManager.open({ content })
-
-}
-
-const popupboxConfigProject3= {
-titleBar: {
-    enable: true,
-    text: "Project3"
-
-},
-
-fadeIn: true,
-fadeInSpeed: 500 
-
-}
-
-//project4
-
-const openPopupboxProject4 = () => {
-    
-    const content = (
-<>
-    < img className="project-image-popupbox"src={Project4} alt=" Project4..."/>
-<p>lorem200
-</p>
-<b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/amir00700/Comp2068-LAB1-")}>
-https://github.com/amir00700/Comp2068-LAB1</a>
-
-</>
-
-)
-PopupboxManager.open({ content })
-
-}
-
-const popupboxConfigProject4= {
-titleBar: {
-    enable: true,
-    text: "Project4"
-
-},
-
-fadeIn: true,
-fadeInSpeed: 500 
-
-}
+            }
 
 
     return (
         <div id="project" className="project-wrapper">
             <div className="container">
-                <h1 className="text-uppercase text-center py-5">Projects</h1>
+                <h1 className="text-uppercase text-center py-5">Work</h1>
                 <div className="image-box-wrapper row justify-content-center">
                     <div className="project-image-box" onClick={openPopupboxProject1}>
                     <img className="project-image" src={Project1} alt="project1.."/>
