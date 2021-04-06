@@ -37,9 +37,9 @@ const Footer = () => {
                                 <Link  smooth={true} to="services"  offset={-110} className="footer-nav">Services</Link >
                             </div>
                             <div className="col">
-                                <Link smooth={true} to="project"  offset={-110}    className="footer-nav">Projects</Link >
+                                <Link smooth={true} to="project"  offset={-110}    className="footer-nav">Work</Link >
                                 <br/>
-                                <Link smooth={true} to="contacts"  offset={-110}  href="contacts" className="footer-nav">Contacts</Link>
+                                <Link smooth={true} to="contacts"  offset={-110}  href="contacts" className="footer-nav">Contact</Link>
                             </div>
                         </div>
                     </div>

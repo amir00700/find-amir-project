@@ -1,5 +1,5 @@
 import React from "react";
-import Project1 from "../images/Task-tracker.jpg";
+import reactTaskTracker from "../images/Task-tracker.jpg";
 import Project2 from "../images/iphone5.jpg";
 import Project3 from "../images/iphone12.jpg";
 import Project4 from "../images/macbook.jpg";
@@ -14,68 +14,42 @@ import "react-popupbox/dist/react-popupbox.css";
 
 const Projects = () => {
     
-                    //project1
-                const openPopupboxProject1 = () => {
-                
-                        const content = (
-                    <>
-                    <img  className="project-image-popupbox"src={Project1} alt=" project 1 "/>
-                    <p>Technology used: React.js</p>
-                    <b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/amir00700/React-Task-Tracker-App")}>
-                    https://github.com/amir00700/React-Task-Tracker-App
-                    </a>
-
-                    </>
-
-                    )
-                    PopupboxManager.open({ content })
-
-                }
-
-                const popupboxConfigProject1 = {
-                    titleBar: {
-                        enable: true,
-                        text: "React Task Tracker App"
-
-                    },
-
-                    fadeIn: true,
-                    fadeInSpeed: 500 
-
-                }
-
-                //projec2
-                const openPopupboxProject2 = () => {
-                 const content = (
+        //project1
+            const openPopupboxProject1 = () => {
+                const content = (
                 <>
-                <img  className="project-image-popupbox"src={Project2} alt=" project 2 "/>
-                <p></p>
-                <b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/amir00700/Comp2068-LAB1-")}>
-                https://github.com/amir00700/Comp2068-LAB1-
-                </a> </>
-
+                <img  className="project-image-popupbox"src={reactTaskTracker} alt=" project 1 "/>
+                <p>Technolgy used: React.js</p>
+                <b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/amir00700/React-Task-Tracker-App")}>
+                Source Code
+                </a>
+                </>
                 )
-                PopupboxManager.open({ content })
-
+                PopupboxManager.open({ content });
+                PopupboxManager.update({
+                    content,
+                    config: {
+                        titleBar:{
+                        text:" React Task Tracker"
+                        },
+                    },
+                })
             }
-
-            const popupboxConfigProject2 = {
+            const popupboxConfigTaskTracker = {
                 titleBar: {
                     enable: true,
-                    text: "Project2"
-
+                    text: "Project"
                 },
-
                 fadeIn: true,
                 fadeInSpeed: 500 
 
             }
 
-            //project3
-            const openPopupboxProject3 = () => {
+            //projec2
+            const openPopupboxProject2 = () => {
             const content = (
             <>
-            <img  className="project-image-popupbox"src={Project3} alt=" Project3"/>
+            <img  className="project-image-popupbox"src={Project2} alt=" project 1 "/>
             <p>ggg</p>
             <b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/amir00700/Comp2068-LAB1-")}>
             https://github.com/amir00700/Comp2068-LAB1-
@@ -83,54 +57,96 @@ const Projects = () => {
             </>
             )
             PopupboxManager.open({ content })
+            PopupboxManager.update({
+                content,
+                config: {
+                    titleBar:{
+                    text:" React Task Tracker App"
+                    },
+                },
+            })
+        }
+            const popupboxConfigProject2 ={
+                titleBar: {
+                    enable: true,
+                    text: "Project2"
+                },
+                fadeIn: true,
+                fadeInSpeed: 500 
+
             }
-            const popupboxConfigProject3= {
-            titleBar: {
+
+ //project3
+
+            const openPopupboxProject3 = () => {
+             const content = (
+            <>
+            <img  className="project-image-popupbox"src={Project3} alt=" Project3"/>
+            <p>ggg</p>
+            <b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/amir00700/Comp2068-LAB1-")}>
+            https://github.com/amir00700/Comp2068-LAB1-
+            </a>
+             </>
+
+                )
+            PopupboxManager.open({ content })
+            PopupboxManager.update({
+                content,
+                config: {
+                    titleBar:{
+                    text:" React Task Tracker App"
+                    },
+                },
+            })
+
+            }
+             const popupboxConfigProject3= {
+                titleBar: {
                 enable: true,
                 text: "Project3"
-
             },
-
-            fadeIn: true,
-            fadeInSpeed: 500 
-
+             fadeIn: true,
+            fadeInSpeed: 500,
             }
 
-            //project4
+                //project4
+                const openPopupboxProject4 = () => {  
+                 const content = (
+                <>
+                < img className="project-image-popupbox"src={Project4} alt=" Project4..."/>
+                <p>lorem200
+                </p>
+                <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/amir00700/Comp2068-LAB1-")}>
+                https://github.com/amir00700/Comp2068-LAB1</a>
+                </>
+                )
+                PopupboxManager.open({ content })
+                PopupboxManager.update({
+                    content,
+                    config: {
+                        titleBar:{
+                        text:" React Task Tracker App"
+                        },
+                    },
+                })
 
-            const openPopupboxProject4 = () => {
-                
-                const content = (
-            <>
-                < img className="project-image-popupbox"src={Project4} alt=" projec4"/>
-            <p>lorem200</p>
-            <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/amir00700/Comp2068-LAB1-")}>
-            https://github.com/amir00700/Comp2068-LAB1</a>
+                }
+                const popupboxConfigProject4= {
+                titleBar: {
+                    enable: true,
+                    text: "Project4"
 
-            </>
-
-            )
-            PopupboxManager.open({ content })
-            }
-            const popupboxConfigProject4= {
-            titleBar: {
-                enable: true,
-                text: "Project4"
-
-            },
-            fadeIn: true,
-            fadeInSpeed: 500 
-
-            }
-
-
+                },
+                fadeIn: true,
+                fadeInSpeed: 500 
+                }
     return (
-        <div id="project" className="project-wrapper">
+        <div  id="project" className="project-wrapper">
             <div className="container">
                 <h1 className="text-uppercase text-center py-5">Work</h1>
                 <div className="image-box-wrapper row justify-content-center">
                     <div className="project-image-box" onClick={openPopupboxProject1}>
-                    <img className="project-image" src={Project1} alt="project1.."/>
+                    <img className="project-image" src={reactTaskTracker} alt="project1.."/>
                     <div className="overflow"> </div>
                     <FontAwesomeIcon className="project-icon" icon={faSearchPlus}/>
                 </div>
@@ -141,47 +157,30 @@ const Projects = () => {
                     <FontAwesomeIcon className="project-icon" icon={faSearchPlus}/>
                 </div>
                 {/* -*/}
-               
                 <div className="project-image-box" onClick={openPopupboxProject3}>
                     <img className="project-image" src={Project3} alt="project3.."/>
                     <div className="overflow"> </div>
                     <FontAwesomeIcon className="project-icon" icon={faSearchPlus}/>
                 </div>
-                
                 {/* -*/}
-            
                 <div className="project-image-box" onClick={openPopupboxProject4}>
-                    <img className="project-image" src={Project4} alt="project3.."/>
+                    <img className="project-image" src={Project4} alt="project4 .."/>
                     <div className="overflow"> </div>
                     <FontAwesomeIcon className="project-icon" icon={faSearchPlus}/>
                 </div>
-                
-                
-{/* 
-                {/* -*/}
-                
-                {/* {/* <div className="project-image-box">
-                    <img className="project-image" src={Project5} alt="Portfolio React Project...."/>
-                    <div className="overflow"> </div>
-                    <FontAwesomeIcon className="project-icon" icon={faSearchPlus}/>
-                
-                </div>  */}
-                
-            
-
-
-
             </div>
-            </div>
-            <PopupboxContainer {...popupboxConfigProject1}/>
-            <PopupboxContainer {...popupboxConfigProject2}/>
-            <PopupboxContainer {...popupboxConfigProject3}/>
-            <PopupboxContainer {...popupboxConfigProject4}/>
-
             </div>
             
+            <PopupboxContainer {...popupboxConfigTaskTracker} />
+            <PopupboxContainer {...popupboxConfigProject2} />
+            <PopupboxContainer {...popupboxConfigProject3} />
+            
+
+           
+        </div>
         
     )
 }
 
-export default Projects
+export default Projects;
+

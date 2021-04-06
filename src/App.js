@@ -1,4 +1,4 @@
-
+import React from 'react';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from "react-particles-js";
@@ -9,9 +9,13 @@ import Services from "./components/Services";
 import Projects from "./components/Projects";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
+import  { useState } from 'react';
+
 
 function App() {
+ 
   return (
+    
     <>
     <Particles
     className="particles-canvas"

@@ -21,7 +21,7 @@
   
 }
 body{
-  font-family: "Roboto Condensed" sans-serif  !important;
+  font-family: 'Share Tech Mono', monospace !important;
 }
 /* navbar */
 nav{
@@ -30,7 +30,7 @@ nav{
 /* Modify the backgorund color */ 
 .navbar-custom { 
 	background-color:#021933; 
-  padding: 1.3rem 0;
+  padding: 0rem !important;
 } 
 
 
@@ -61,13 +61,24 @@ nav ul li{
   font-size: xx-large !important;
   color: var(--primary-white) !important;
   padding: 0 !important;
-
+}
+.navbar-toggler{
+ border: 1px solid var(--primary-crimson) !important;
+  
+  
 }
 
-@media(max-width: 768px){
+@media(max-width: 900px){
   .navbar-brand {
-     margin-top: 0rem !important;
+    font-size: 2rem !important;
   }
+  .navbar-custom { 
+   
+    padding: 0rem !important;
+  } 
+  
+
+  
   .navbar-nav > li > a {
     padding: auto;
     margin-right: 0.55rem;
@@ -75,6 +86,7 @@ nav ul li{
     color: var(--primary-white) !important;
     border-top: 0.1875rem  solid var(--primary-dark);
     font-family: 'Share Tech Mono', monospace;
+    
   
   }
 
@@ -123,7 +135,7 @@ nav ul li{
     font-size: 2rem !important;
   }
   .typed-text {
-    font-size: 2rem  !important;
+    font-size: 1.5rem  !important;
   }
  
 }
@@ -133,11 +145,13 @@ nav ul li{
  .typed-text{
    font-size: 2rem;
    color:var(--primary-white);
+  
    font-family: 'Share Tech Mono', monospace;
-   
 
 
  }
+
+
  /* header github button */
 .btn-github{
  border: 2px var(--primary-crimson); 
@@ -206,11 +220,12 @@ font-family: 'Share Tech Mono', monospace;
 }
 
 .btn-resume{
-  border: 2px solid #021933;
+  background-color: #021933;
+  border: 1px solid #021933;
 text-transform: uppercase;
 border-radius: 12px;
 padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-color: var(--primary-black);
+color: var(--primary-white);
 margin-top: 2rem;
 font-family: 'Share Tech Mono', monospace;
 
@@ -297,7 +312,7 @@ font-family: 'Share Tech Mono', monospace;
 }
 
  /***Media***/
- @media(max-width: 850px){
+ @media(max-width: 1000px){
   .services h3{
     font-size: large;
 
@@ -368,7 +383,7 @@ font-family: 'Share Tech Mono', monospace;
 }
 /*---overflow box---*/
 .project-image-popupbox{
-  width: 35rem;
+  width: 40rem;
   padding: 0 0.5rem;
    
 }
@@ -380,10 +395,20 @@ font-family: 'Share Tech Mono', monospace;
  
   color:var(--primary-crimson);
 }
+.popupbox-titleBar{
+  background-color:var(--primary-crimson);
+}
+.popupbox-titleBar span{
+  color:var(--primary-black);
+}
+.popupbox-btn--close{
+  color: var(--primary-crimson);
+
+}
 
 /*media popupbox style*/
 
-@media(max-width: 770px) {
+@media(max-width: 850px) {
   .project-image-popupbox{
     width: 80%;
   }
@@ -403,9 +428,9 @@ font-family: 'Share Tech Mono', monospace;
 }
 
 
-@media(max-height: 280px) {
+@media(max-height: 380px) {
   .popupbox-wrapper{
-    height: 60% ;
+    height: 50% ;
     width: 50%;
   }
   .project-image-popupbox p{
@@ -481,9 +506,9 @@ font-family: 'Share Tech Mono', monospace;
  .contact-btn {
    margin: 1rem 0 0 0;
    width: 100%;
-   background: none;
-   color: var(--primary-black);
-   border: 2px solid #021933;
+   background: #021933;
+   color: var(--primary-white);
+   border: 1px solid #021933;
    text-transform: uppercase;
    border-radius: 12px;
    margin-top: 2rem;
@@ -574,6 +599,14 @@ a.Reddit {
  /*--------Media--------*/
 
  @media(max-width: 768px){
+  
+  .contacts p{
+    
+    font-size: 1rem;
+    
+    
+   
+  }
    .contacts{
    
      overflow-x: hidden;
