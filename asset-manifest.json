@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/find-amir-project/static/css/main.e743de5d.chunk.css",
-    "main.js": "/find-amir-project/static/js/main.ca8cc611.chunk.js",
-    "main.js.map": "/find-amir-project/static/js/main.ca8cc611.chunk.js.map",
+    "main.css": "/find-amir-project/static/css/main.97e6297b.chunk.css",
+    "main.js": "/find-amir-project/static/js/main.f4d58264.chunk.js",
+    "main.js.map": "/find-amir-project/static/js/main.f4d58264.chunk.js.map",
     "runtime-main.js": "/find-amir-project/static/js/runtime-main.9d88f175.js",
     "runtime-main.js.map": "/find-amir-project/static/js/runtime-main.9d88f175.js.map",
     "static/css/2.301e199a.chunk.css": "/find-amir-project/static/css/2.301e199a.chunk.css",
@@ -12,21 +12,22 @@
     "static/js/3.e8864427.chunk.js.map": "/find-amir-project/static/js/3.e8864427.chunk.js.map",
     "index.html": "/find-amir-project/index.html",
     "static/css/2.301e199a.chunk.css.map": "/find-amir-project/static/css/2.301e199a.chunk.css.map",
-    "static/css/main.e743de5d.chunk.css.map": "/find-amir-project/static/css/main.e743de5d.chunk.css.map",
+    "static/css/main.97e6297b.chunk.css.map": "/find-amir-project/static/css/main.97e6297b.chunk.css.map",
     "static/js/2.222f51b5.chunk.js.LICENSE.txt": "/find-amir-project/static/js/2.222f51b5.chunk.js.LICENSE.txt",
+    "static/media/React-music-player.232ae056.jpg": "/find-amir-project/static/media/React-music-player.232ae056.jpg",
     "static/media/Task-tracker.90996404.jpg": "/find-amir-project/static/media/Task-tracker.90996404.jpg",
     "static/media/App.css": "/find-amir-project/static/media/header.c9cf8857.jpg",
     "static/media/iphone12.49aa193d.jpg": "/find-amir-project/static/media/iphone12.49aa193d.jpg",
-    "static/media/iphone5.61465f54.jpg": "/find-amir-project/static/media/iphone5.61465f54.jpg",
     "static/media/macbook.22f7950a.jpg": "/find-amir-project/static/media/macbook.22f7950a.jpg",
     "static/media/portfolio.3ff0bfd8.jpg": "/find-amir-project/static/media/portfolio.3ff0bfd8.jpg",
-    "static/media/propic.c7fe1e5c.jpg": "/find-amir-project/static/media/propic.c7fe1e5c.jpg"
+    "static/media/propic.c7fe1e5c.jpg": "/find-amir-project/static/media/propic.c7fe1e5c.jpg",
+    "static/media/resume.c8831e91.pdf": "/find-amir-project/static/media/resume.c8831e91.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.9d88f175.js",
     "static/css/2.301e199a.chunk.css",
     "static/js/2.222f51b5.chunk.js",
-    "static/css/main.e743de5d.chunk.css",
-    "static/js/main.ca8cc611.chunk.js"
+    "static/css/main.97e6297b.chunk.css",
+    "static/js/main.f4d58264.chunk.js"
   ]
 }
