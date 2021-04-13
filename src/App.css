@@ -51,7 +51,7 @@ nav ul li {
 }
 
 .navbar-brand {
-  font-family: "Italianno", cursive;
+  font-family: "Italianno", cursive !important;
 
   font-size: xx-large !important;
   color: var(--primary-white) !important;
@@ -308,7 +308,7 @@ nav ul li {
   opacity: 0;
   background: var(--primary-black);
   width: 15rem;
-
+  /* height: 9.5rem; */
   top: 0;
   border: 1px solid var(--primary-red);
   cursor: pointer;

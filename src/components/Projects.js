@@ -1,6 +1,6 @@
 import React from "react";
 import reactTaskTracker from "../images/Task-tracker.jpg";
-import reactMusicPlayer from "../images/React-music-player.jpg";
+import reactMusicPlayer from "../images/React-music.jpg";
 import Project3 from "../images/iphone12.jpg";
 import Project4 from "../images/macbook.jpg";
 import Project5 from "../images/portfolio.jpg";
