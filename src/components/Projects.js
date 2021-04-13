@@ -1,6 +1,6 @@
 import React from "react";
 import reactTaskTracker from "../images/Task-tracker.jpg";
-import Project2 from "../images/iphone5.jpg";
+import reactMusicPlayer from "../images/React-music-player.jpg";
 import Project3 from "../images/iphone12.jpg";
 import Project4 from "../images/macbook.jpg";
 import Project5 from "../images/portfolio.jpg";
@@ -18,7 +18,7 @@ const Projects = () => {
             const openPopupboxProject1 = () => {
                 const content = (
                 <>
-                <img  className="project-image-popupbox"src={reactTaskTracker} alt=" project 1 "/>
+                <img  className="project-image-popupbox"src={reactTaskTracker} alt="react Task Tracker App"/>
                 <p>Technolgy used: React.js</p>
                 <b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/amir00700/React-Task-Tracker-App")}>
                 Source Code
@@ -49,10 +49,10 @@ const Projects = () => {
             const openPopupboxProject2 = () => {
             const content = (
             <>
-            <img  className="project-image-popupbox"src={Project2} alt=" project 1 "/>
-            <p>ggg</p>
-            <b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/amir00700/Comp2068-LAB1-")}>
-            https://github.com/amir00700/Comp2068-LAB1-
+            <img  className="project-image-popupbox"src={reactMusicPlayer} alt="react music player "/>
+            <p>Technolgy used: React.js</p>
+            <b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/amir00700/React-Music-player")}>
+            Source Code
             </a>
             </>
             )
@@ -61,7 +61,7 @@ const Projects = () => {
                 content,
                 config: {
                     titleBar:{
-                    text:" React Task Tracker App"
+                    text:" React Music Player App"
                     },
                 },
             })
@@ -152,7 +152,7 @@ const Projects = () => {
                 </div>
                 {/* -*/}
                 <div className="project-image-box" onClick={openPopupboxProject2}>
-                    <img className="project-image" src={Project2} alt="project2.."/>
+                    <img className="project-image" src={reactMusicPlayer} alt="project2.."/>
                     <div className="overflow"> </div>
                     <FontAwesomeIcon className="project-icon" icon={faSearchPlus}/>
                 </div>
