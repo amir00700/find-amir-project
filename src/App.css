@@ -350,7 +350,7 @@ nav ul li {
   color: var(--primary-black);
 }
 .popupbox-btn--close {
-  color: var(--primary-crimson);
+  color: var(--primary-white);
 }
 
 /*media popupbox style*/
