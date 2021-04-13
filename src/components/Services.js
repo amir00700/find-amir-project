@@ -5,7 +5,6 @@ import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
     return (
-        
         <div id="services" className="services">
             <h1 className="py-5"> My Services</h1>
                 <div className="container">
@@ -31,7 +30,7 @@ const Services = () => {
                             <div className="box">
                             <div className="circle"> <FontAwesomeIcon className="icon" icon={faFacebookF} size="2x"/> </div>.
                                 <h3>Facebook Ads SMM</h3>
-                                <p>Your Potential clients well see your services  or product on Facebook.</p>
+                                <p>Your Potential clients will see your services  or product on Facebook.</p>
                                 
                             </div>
                         </div>

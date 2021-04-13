@@ -17,14 +17,12 @@ const AboutMe = () => {
                 </div>
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="about-heading">About me</h1>
-                    <p>Hellow! I am Amir. I'm a Web Developer.
-                    The technologies I use are Mern(MongoDB, Express, ReactJS, and NodeJS).
-                    I create responsive websites that are displayed on all devices desktops and smartphones.
-                    I enjoy building everything from small business sites to rich interactive websites.
-                     If you are a business seeking or a web presence or an employee looking to hire, you can get in touch with me.</p>
+                    <p>I'm a Full-Stack Web Developer and programmer. The technologies I use are Mern(MongoDB, Express, ReactJS, and NodeJS).
+                        I create responsive websites that are displayed on all devices desktops and smartphones. I enjoy building everything from small business sites to rich interactive websites. 
+                        If you are a business seeking or a web presence or an employee looking to hire, you can get in touch with me.</p>
                     <a href={resume}  target = "_blank" className="btn-resume">Download Resume</a>
 
-                </div>
+                </div> 
 
             </div>
 

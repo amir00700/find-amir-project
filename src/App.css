@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap'); */
 @import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 :root {
   --primary-white: #fff;
@@ -18,7 +19,7 @@
   --primary-green2: #e3fcea;
 }
 body {
-  font-family: "Share Tech Mono", monospace !important;
+  font-family: "Lato", sans-serif;
 }
 /* navbar */
 nav {
@@ -46,7 +47,7 @@ nav ul li {
   color: var(--primary-white) !important;
   border-top: 0.1875rem solid var(--primary-dark);
 
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Lato", sans-serif;
 }
 
 .navbar-brand {
@@ -74,7 +75,7 @@ nav ul li {
     margin-left: 0.55rem;
     color: var(--primary-white) !important;
     border-top: 0.1875rem solid var(--primary-dark);
-    font-family: "Share Tech Mono", monospace;
+    font-family: "Lato", sans-serif;
   }
 }
 
@@ -105,7 +106,7 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Lato", sans-serif;
   z-index: 1;
 }
 /* .main-info h1{
@@ -142,7 +143,6 @@ nav ul li {
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin-top: 2rem;
-  font-family: "Share Tech Mono", monospace;
 }
 .btn-github:hover {
   text-decoration: none;
@@ -180,10 +180,10 @@ nav ul li {
 .about-heading {
   color: #021933;
   text-transform: uppercase;
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Lato", sans-serif;
 }
 .about-wrapper p {
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Lato", sans-serif;
 }
 
 @media (max-width: 468px) {
@@ -199,7 +199,7 @@ nav ul li {
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin-top: 2rem;
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Lato", sans-serif;
 }
 
 .btn-resume:hover {
@@ -219,7 +219,7 @@ nav ul li {
 .services h1 {
   color: #021933;
   text-transform: uppercase;
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Lato", sans-serif;
 }
 
 .services .circle {
@@ -266,10 +266,10 @@ nav ul li {
   color: var(--primary-white);
 }
 .services h3 {
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Lato", sans-serif;
 }
 .services p {
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Lato", sans-serif;
 }
 
 /***Media***/
@@ -289,7 +289,7 @@ nav ul li {
 }
 .project-wrapper h1 {
   color: #021933;
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Lato", sans-serif;
 }
 .project-image {
   width: 15rem;
@@ -397,13 +397,13 @@ nav ul li {
   color: #021933;
   padding: 1.3rem 0;
   text-transform: uppercase;
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Lato", sans-serif;
 }
 
 .contacts p {
   color: var(--primary-light-dark);
   font-size: 1.2rem;
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Lato", sans-serif;
 }
 
 /* inputs */
@@ -422,7 +422,7 @@ nav ul li {
   box-shadow: none !important;
   margin-bottom: 1rem;
   padding: 0 !important;
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Lato", sans-serif;
 }
 .contacts .container {
   padding: 4rem 0;
@@ -444,11 +444,10 @@ nav ul li {
   width: 100%;
   background: #021933;
   color: var(--primary-white);
-  border: 1px solid #021933;
   text-transform: uppercase;
   border-radius: 12px;
   margin-top: 2rem;
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Lato", sans-serif;
 }
 
 .contact-btn:hover {
@@ -478,12 +477,12 @@ textarea.form-control {
 .error-message {
   color: var(--primary-crimson);
   background: none;
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Lato", sans-serif;
 }
 .success-message {
   font-weight: 400;
   color: var(--primary-green);
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Lato", sans-serif;
 }
 
 /*--------Footer Component--------*/
@@ -491,12 +490,12 @@ textarea.form-control {
   background: var(--primary-black);
   color: var(--primary-grey);
   padding: 3rem;
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Lato", sans-serif;
 }
 .footer a {
   text-decoration: none;
   color: var(--primary-grey);
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Lato", sans-serif;
 }
 .footer a:hover {
   text-decoration: none;
@@ -505,7 +504,7 @@ textarea.form-control {
 }
 .footer p {
   margin-bottom: 0;
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Lato", sans-serif;
 }
 a.social {
   margin: 0 1rem;
