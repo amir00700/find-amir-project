@@ -38,17 +38,6 @@ const Projects = () => {
        })
 
        }
-       const popupboxConfigProject1= {
-       titleBar: {
-           enable: true,
-           text: "Project4"
-
-       },
-       fadeIn: true,
-       fadeInSpeed: 500 
-       }
-    
-        
             //projec2
             const openPopupboxProject2 = () => {
             const content = (
