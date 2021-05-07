@@ -1,33 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f5dafd7.chunk.css",
-    "main.js": "/static/js/main.24ecdf70.chunk.js",
-    "main.js.map": "/static/js/main.24ecdf70.chunk.js.map",
+    "main.css": "/static/css/main.06ede405.chunk.css",
+    "main.js": "/static/js/main.30253dde.chunk.js",
+    "main.js.map": "/static/js/main.30253dde.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c28e8bf6.js",
     "runtime-main.js.map": "/static/js/runtime-main.c28e8bf6.js.map",
     "static/css/2.301e199a.chunk.css": "/static/css/2.301e199a.chunk.css",
-    "static/js/2.222f51b5.chunk.js": "/static/js/2.222f51b5.chunk.js",
-    "static/js/2.222f51b5.chunk.js.map": "/static/js/2.222f51b5.chunk.js.map",
+    "static/js/2.8df36942.chunk.js": "/static/js/2.8df36942.chunk.js",
+    "static/js/2.8df36942.chunk.js.map": "/static/js/2.8df36942.chunk.js.map",
     "static/js/3.e8864427.chunk.js": "/static/js/3.e8864427.chunk.js",
     "static/js/3.e8864427.chunk.js.map": "/static/js/3.e8864427.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.301e199a.chunk.css.map": "/static/css/2.301e199a.chunk.css.map",
-    "static/css/main.5f5dafd7.chunk.css.map": "/static/css/main.5f5dafd7.chunk.css.map",
-    "static/js/2.222f51b5.chunk.js.LICENSE.txt": "/static/js/2.222f51b5.chunk.js.LICENSE.txt",
+    "static/css/main.06ede405.chunk.css.map": "/static/css/main.06ede405.chunk.css.map",
+    "static/js/2.8df36942.chunk.js.LICENSE.txt": "/static/js/2.8df36942.chunk.js.LICENSE.txt",
     "static/media/React-music.60ad0a00.jpg": "/static/media/React-music.60ad0a00.jpg",
+    "static/media/Supa.ae539f72.jpg": "/static/media/Supa.ae539f72.jpg",
     "static/media/Task-tracker.90996404.jpg": "/static/media/Task-tracker.90996404.jpg",
+    "static/media/Trigger-App.ad63e74c.jpg": "/static/media/Trigger-App.ad63e74c.jpg",
     "static/media/App.css": "/static/media/header.c9cf8857.jpg",
-    "static/media/iphone12.49aa193d.jpg": "/static/media/iphone12.49aa193d.jpg",
-    "static/media/macbook.22f7950a.jpg": "/static/media/macbook.22f7950a.jpg",
-    "static/media/portfolio.3ff0bfd8.jpg": "/static/media/portfolio.3ff0bfd8.jpg",
     "static/media/propic.c7fe1e5c.jpg": "/static/media/propic.c7fe1e5c.jpg",
     "static/media/resume.c8831e91.pdf": "/static/media/resume.c8831e91.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.c28e8bf6.js",
     "static/css/2.301e199a.chunk.css",
-    "static/js/2.222f51b5.chunk.js",
-    "static/css/main.5f5dafd7.chunk.css",
-    "static/js/main.24ecdf70.chunk.js"
+    "static/js/2.8df36942.chunk.js",
+    "static/css/main.06ede405.chunk.css",
+    "static/js/main.30253dde.chunk.js"
   ]
 }
