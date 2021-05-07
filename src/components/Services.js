@@ -21,7 +21,7 @@ const Services = () => {
                             <div className="box">
                             <div className="circle"> <FontAwesomeIcon className="icon" icon={faFileCode} size="2x"/> </div>.
                                 <h3>Web Development</h3>
-                                <p>Your Websites will be build with an new proven technologies.</p>
+                                <p>Your Websites will be build with a new proven technologies.</p>
                                 
                             </div>
                         </div>

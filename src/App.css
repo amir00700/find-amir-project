@@ -28,7 +28,7 @@ nav {
 /* Modify the backgorund color */
 .navbar-custom {
   background-color: #021933;
-  padding: 0rem !important;
+  padding: 1rem !important;
 }
 
 /* menu link */
@@ -52,7 +52,6 @@ nav ul li {
 
 .navbar-brand {
   font-family: "Italianno", cursive !important;
-
   font-size: xx-large !important;
   color: var(--primary-white) !important;
   padding: 0 !important;
@@ -139,7 +138,6 @@ nav ul li {
   border-radius: 12px;
   background: #021933;
   text-transform: uppercase;
-
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin-top: 2rem;

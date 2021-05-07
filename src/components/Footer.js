@@ -5,7 +5,7 @@ import {
     faLinkedin,
     faFacebook,
     faTwitter,
-    faGit,
+    faGithub,
     faReddit
   } from "@fortawesome/free-brands-svg-icons";
 
@@ -18,7 +18,6 @@ const Footer = () => {
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="d-flex">
                             <p>31 Corbett drive barrie,ON</p>
-
                         </div>
                         <div className="d-flex">
                             <a href="tel: +1 705-331-1717"> +1 705 331 1717</a>
@@ -47,7 +46,7 @@ const Footer = () => {
                         <div className="d-flex justify-content-center">
                         <a href="https://github.com/amir00700"
                             className="git social">
-                            <FontAwesomeIcon icon={faGit} size="2x" />
+                            <FontAwesomeIcon icon={faGithub} size="2x" />
                             </a>
                             <a href="https://www.facebook.com/amir.khan.7902/"
                             className="facebook social">
