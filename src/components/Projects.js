@@ -1,9 +1,9 @@
 import React from "react";
 import reactTaskTracker from "../images/Task-tracker.jpg";
 import reactMusicPlayer from "../images/React-music.jpg";
-import Project3 from "../images/iphone12.jpg";
-import Project4 from "../images/macbook.jpg";
-import Project5 from "../images/portfolio.jpg";
+import triggerApp from "../images/Trigger-App.jpg";
+import Project4 from "../images/propic.jpg";
+// import Project5 from "../images/portfolio.jpg";
 //fontawesome imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -51,6 +51,9 @@ const Projects = () => {
             <>
             <img  className="project-image-popupbox"src={reactMusicPlayer} alt="react music player "/>
             <p>Technolgy used: React.js</p>
+            <b>Demo</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/amir00700/React-Music-player")}>
+            Source Code </a>
+            <br/>
             <b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/amir00700/React-Music-player")}>
             Source Code
             </a>
@@ -76,15 +79,20 @@ const Projects = () => {
 
             }
 
- //project3
+            //project3
 
             const openPopupboxProject3 = () => {
              const content = (
             <>
-            <img  className="project-image-popupbox"src={Project3} alt=" Project3"/>
-            <p>ggg</p>
-            <b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/amir00700/Comp2068-LAB1-")}>
-            https://github.com/amir00700/Comp2068-LAB1-
+            <img  className="project-image-popupbox"src={triggerApp} alt=" Project3"/>
+            <p>Technology used:React,Redux</p>
+            <b>Demo</b> <a className="hyper-link" onClick={()=> window.open("https://adoring-boyd-b83e43.netlify.app")}>
+            Live Link </a> 
+            
+            <br/>
+            <b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/amir00700/Trigger-App")}>
+            Source code
+            
             </a>
              </>
 
@@ -94,7 +102,7 @@ const Projects = () => {
                 content,
                 config: {
                     titleBar:{
-                    text:" React Task Tracker App"
+                    text:" Trigger App"
                     },
                 },
             })
@@ -158,7 +166,7 @@ const Projects = () => {
                 </div>
                 {/* -*/}
                 <div className="project-image-box" onClick={openPopupboxProject3}>
-                    <img className="project-image" src={Project3} alt="project3.."/>
+                    <img className="project-image" src={triggerApp} alt="project3.."/>
                     <div className="overflow"> </div>
                     <FontAwesomeIcon className="project-icon" icon={faSearchPlus}/>
                 </div>
