@@ -73,13 +73,12 @@ const Projects = () => {
             }
 
             //project3
-
             const openPopupboxProject3 = () => {
              const content = (
             <>
             <img  className="project-image-popupbox"src={triggerApp} alt=" Project3"/>
             <p>Technology used:React,Redux</p>
-            <b>Demo</b> <a className="hyper-link" onClick={()=> window.open("https://adoring-boyd-b83e43.netlify.app")}>
+            <b>Demo</b> <a className="hyper-link" onClick={()=> window.open("https://heuristic-agnesi-017cd3.netlify.app/")}>
             Live Link </a> 
             
             <br/>
