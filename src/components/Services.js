@@ -11,7 +11,7 @@ const Services = () => {
                     <div className="row">
                         <div className="col-md-3 col-sm-6">
                             <div className="box">
-                               <div className="circle"> <FontAwesomeIcon className="icon" icon={faDesktop} size="2x"/> </div>.
+                               <div className="circle"> <FontAwesomeIcon className="icon" icon={faDesktop} size="2x"/> </div>
                                 <h3>Web Design</h3>
                                 <p> I approach each project individually and always focus on the result</p>
 
@@ -19,7 +19,7 @@ const Services = () => {
                         </div>
                         <div className="col-md-3 col-sm-6">
                             <div className="box">
-                            <div className="circle"> <FontAwesomeIcon className="icon" icon={faFileCode} size="2x"/> </div>.
+                            <div className="circle"> <FontAwesomeIcon className="icon" icon={faFileCode} size="2x"/> </div>
                                 <h3>Web Development</h3>
                                 <p>Your Websites will be build with a new proven technologies.</p>
                                 
@@ -28,7 +28,7 @@ const Services = () => {
 
                         <div className="col-md-3 col-sm-6">
                             <div className="box">
-                            <div className="circle"> <FontAwesomeIcon className="icon" icon={faFacebookF} size="2x"/> </div>.
+                            <div className="circle"> <FontAwesomeIcon className="icon" icon={faFacebookF} size="2x"/> </div>
                                 <h3>Facebook Ads SMM</h3>
                                 <p>Your Potential clients will see your services  or product on Facebook.</p>
                                 
@@ -37,7 +37,7 @@ const Services = () => {
 
                         <div className="col-md-3 col-sm-6">
                             <div className="box">
-                            <div className="circle"> <FontAwesomeIcon  className="icon" icon={faGoogle} size="2x"/> </div>.
+                            <div className="circle"> <FontAwesomeIcon  className="icon" icon={faGoogle} size="2x"/> </div>
                                 <h3>Google Ads</h3>
                                 <p> Your services or product will appear at the top of the Google search.</p>
                                 
