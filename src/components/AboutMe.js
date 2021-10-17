@@ -1,6 +1,6 @@
 import React from "react";
 import author from "../images/propic.jpg"
-import resume from "../Documents/Resume.pdf"
+import resume from "../Documents/Portfolio.pdf"
 
 
 const AboutMe = () => {
