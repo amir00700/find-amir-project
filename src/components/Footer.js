@@ -17,7 +17,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="d-flex">
-                            <p>barrie,ON</p>
+                            <p>Toronto,ON</p>
                         </div>
                         <div className="d-flex">
                             <a href="tel: +1 705-331-1717"> +1 705 331 1717</a>
