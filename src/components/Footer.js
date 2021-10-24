@@ -19,9 +19,7 @@ const Footer = () => {
                         <div className="d-flex">
                             <p>Toronto,ON</p>
                         </div>
-                        <div className="d-flex">
-                            <a href="tel: +1 705-331-1717"> +1 705 331 1717</a>
-                        </div>
+                        
                         <div className="d-flex">
                             <p>Amir.ahmed79@outlook.com</p>
                         </div>
@@ -63,9 +61,9 @@ const Footer = () => {
                             className="Reddit social">
                             <FontAwesomeIcon icon={faReddit} size="2x" />
                             </a>
-                           
+                           </div>
                             
-                        </div>
+                        
 
                         <p className="pt-3 text-center">
                             Copyright&copy;
