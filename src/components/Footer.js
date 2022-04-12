@@ -19,9 +19,8 @@ const Footer = () => {
                         <div className="d-flex">
                             <p>Toronto,ON</p>
                         </div>
-                        
                         <div className="d-flex">
-                            <p>Amir.ahmed79@outlook.com</p>
+                            <p> Reach me: Amir.ahmed79@outlook.com</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-2 col-sm-6">

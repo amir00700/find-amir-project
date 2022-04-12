@@ -52,10 +52,7 @@ const Navbar = ({}) => {
         <Link onClick={handleclick} 
         smooth={true} to="about"  offset={-105} className="nav-link" href="#">About Me</Link>
       </li>
-      <li className="nav-item">
-        <Link onClick={handleclick} 
-          smooth={true} to="services" offset={-110}  className="nav-link" href="#">Services</Link>
-      </li>
+      
       <li className="nav-item">
         <Link onClick={handleclick} 
          smooth={true} to="project" offset={-110}  className="nav-link" href="#">Work</Link>
